@@ -26,6 +26,10 @@ class MainActivity : AppCompatActivity() {
     private  fun  loadData(){
         //网络获取数据
     }
+
+    private  fun upData(){
+        //上传数据
+    }
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         // Inflate the menu; this adds items to the action bar if it is present.
         menuInflater.inflate(R.menu.menu_main, menu)
